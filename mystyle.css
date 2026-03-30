@@ -78,11 +78,13 @@ a:hover{
 
     }
     .logo-md img{
-        /* display: flexbox;
+        /* 
+        display: flexbox;
         align-items: center;
         justify-content: center;
         justify-self: center;
-        text-align: center; */
+        text-align: center; 
+        */
         margin-left: 32.5%;
     }
 }
