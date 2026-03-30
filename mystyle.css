@@ -5,6 +5,7 @@ body{
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    background-color: antiquewhite;
 }
 img{
     width: 100%;
@@ -34,6 +35,7 @@ footer{
     background-color: black;
     color: white;
     border-radius: 20px;
+    padding-bottom: 10px;
 }
 .btn{
     border-radius: 20px;
@@ -45,13 +47,16 @@ footer{
 }
 a{
     color: black;
+    text-decoration: none;
 }
 a:hover{
     text-decoration: none;
     color: red;
 }
 @media screen and (max-width:600px){
-    
+    .logo-sm img{
+        margin-left: 25%;
+    }
 }
 @media screen and (min-width:601px) {
     .col-md-100{
@@ -66,9 +71,19 @@ a:hover{
         width: 25%;
         float: left;
     }
+    .logo-md{
+        /* display: flex; */
+        /* justify-content: center;
+        justify-items: center; */
+
+    }
     .logo-md img{
-        display: flex;
+        /* display: flexbox;
         align-items: center;
+        justify-content: center;
+        justify-self: center;
+        text-align: center; */
+        margin-left: 32.5%;
     }
 }
 @media screen and (min-width:992px) {
@@ -83,5 +98,8 @@ a:hover{
     .col-lg-100{
         width: 100%;
         float: left;
+    }
+    .logo-lg img{
+        margin-left: 10px;
     }
 }
